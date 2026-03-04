@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
+import logo from "@/assets/logo.jpeg";
 
 const Footer = () => {
   return (
@@ -26,9 +27,9 @@ const Footer = () => {
       <div className="bg-navy text-navy-foreground py-12">
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h3 className="font-display text-2xl font-bold mb-4">
-              <span className="text-primary">CTIR</span>
-            </h3>
+            <Link to="/" className="flex items-center gap-2 mb-4">
+              <img src={logo} alt="CTIR Logo" className="h-12 w-auto" />
+            </Link>
             <p className="text-sm opacity-80 max-w-md leading-relaxed">
               Cylinders & Tanks Industries Rwanda is Rwanda's first-ever LPG cylinder manufacturing and revalidation company, 
               established to strengthen national energy infrastructure and promote safe, reliable, and affordable use of LPG.

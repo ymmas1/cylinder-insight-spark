@@ -54,7 +54,7 @@ const Index = () => {
             animate="visible"
             className="max-w-2xl"
           >
-            <motion.p variants={fadeUp} custom={0} className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
+            <motion.p variants={fadeUp} custom={0} className="text-accent font-semibold text-sm uppercase tracking-widest mb-3">
               Rwanda's First LPG Cylinder Manufacturer
             </motion.p>
             <motion.h1 variants={fadeUp} custom={1} className="text-4xl md:text-6xl font-display font-bold text-background leading-tight mb-6">
@@ -87,7 +87,7 @@ const Index = () => {
               variants={fadeUp}
               custom={i}
             >
-              <div className="text-3xl md:text-4xl font-display font-bold text-primary">{s.value}</div>
+              <div className="text-3xl md:text-4xl font-display font-bold text-accent">{s.value}</div>
               <div className="text-sm mt-1 opacity-80">{s.label}</div>
             </motion.div>
           ))}

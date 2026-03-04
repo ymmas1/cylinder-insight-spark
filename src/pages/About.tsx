@@ -34,7 +34,7 @@ const About = () => {
       <section className="relative py-20 bg-navy text-navy-foreground overflow-hidden">
         <div className="container relative z-10">
           <motion.div initial="hidden" animate="visible" className="max-w-3xl">
-            <motion.p variants={fadeUp} custom={0} className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
+            <motion.p variants={fadeUp} custom={0} className="text-accent font-semibold text-sm uppercase tracking-widest mb-3">
               Rwanda's Pioneer in LPG Manufacturing
             </motion.p>
             <motion.h1 variants={fadeUp} custom={1} className="text-4xl md:text-5xl font-display font-bold leading-tight mb-6">
@@ -154,7 +154,7 @@ const About = () => {
                 custom={i}
                 className="border border-muted-foreground/20 rounded-lg p-6"
               >
-                <v.icon className="w-8 h-8 text-primary mb-4" />
+                <v.icon className="w-8 h-8 text-accent mb-4" />
                 <h3 className="font-display font-semibold text-lg mb-2">{v.title}</h3>
                 <p className="text-sm opacity-70">{v.desc}</p>
               </motion.div>

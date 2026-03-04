@@ -83,7 +83,7 @@ const Manufacturing = () => {
       <section className="py-16 md:py-20">
         <div className="container grid md:grid-cols-2 gap-12 items-center">
           <motion.div initial="hidden" animate="visible">
-            <motion.p variants={fadeUp} custom={0} className="text-primary font-semibold text-sm uppercase tracking-widest mb-2">
+            <motion.p variants={fadeUp} custom={0} className="text-accent font-semibold text-sm uppercase tracking-widest mb-2">
               Want a cylinder manufacturing partner?
             </motion.p>
             <motion.h1 variants={fadeUp} custom={1} className="text-4xl md:text-5xl font-display font-bold leading-tight mb-6">
@@ -125,7 +125,7 @@ const Manufacturing = () => {
                   custom={i}
                   className="flex gap-3"
                 >
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
                   <p className="text-sm text-muted-foreground leading-relaxed">{item}</p>
                 </motion.div>
               ))}

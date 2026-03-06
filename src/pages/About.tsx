@@ -31,7 +31,7 @@ const About = () => {
       <Navbar />
 
       {/* Hero */}
-      <section className="relative py-20 bg-navy text-navy-foreground overflow-hidden">
+      <section className="relative py-20 bg-primary text-primary-foreground overflow-hidden">
         <div className="container relative z-10">
           <motion.div initial="hidden" animate="visible" className="max-w-3xl">
             <motion.p variants={fadeUp} custom={0} className="text-accent font-semibold text-sm uppercase tracking-widest mb-3">

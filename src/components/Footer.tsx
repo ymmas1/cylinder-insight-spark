@@ -31,7 +31,7 @@ const Footer = () => {
               <img src={logo} alt="CTIR Logo" className="h-12 w-auto" />
             </Link>
             <p className="text-sm opacity-80 max-w-md leading-relaxed">
-              Cylinders & Tanks Industries Rwanda is Rwanda's first-ever LPG cylinder manufacturing and revalidation company, 
+              Cylinders & Tanks Industries is Rwanda's first-ever LPG cylinder manufacturing and revalidation company, 
               established to strengthen national energy infrastructure and promote safe, reliable, and affordable use of LPG.
             </p>
             <div className="flex items-center gap-4 mt-6 text-sm opacity-70">
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="container mt-10 pt-6 border-t border-muted-foreground/20">
-          <p className="text-xs opacity-60 text-center">© 2026 Cylinders & Tanks Industries Rwanda Limited. All Rights Reserved.</p>
+          <p className="text-xs opacity-60 text-center">© 2026 Cylinders & Tanks Industries Limited. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

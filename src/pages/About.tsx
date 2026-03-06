@@ -152,7 +152,7 @@ const About = () => {
                 viewport={{ once: true }}
                 variants={fadeUp}
                 custom={i}
-                className="border border-muted-foreground/20 rounded-lg p-6"
+                className="border border-muted-foreground/20 rounded-lg p-6 bg-white"
               >
                 <v.icon className="w-8 h-8 text-accent mb-4" />
                 <h3 className="font-display font-semibold text-lg mb-2">{v.title}</h3>

@@ -131,7 +131,7 @@ const About = () => {
       </section>
 
       {/* Values */}
-      <section className="bg-navy text-navy-foreground py-20">
+      <section className="py-20" style={{ backgroundColor: 'rgb(229, 231, 235)' }}>
         <div className="container">
           <motion.h2
             initial="hidden"

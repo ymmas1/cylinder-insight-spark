@@ -41,7 +41,7 @@ const About = () => {
               We are a leader in delivering safe, innovative, and sustainable LPG energy solutions.
             </motion.h1>
             <motion.p variants={fadeUp} custom={2} className="text-lg opacity-80 max-w-xl">
-              Cylinders & Tanks Industries Rwanda is Rwanda's first-ever LPG cylinder manufacturing and revalidation company, championing quality, safety, and sustainability.
+              Cylinders & Tanks Industries is Rwanda's first-ever LPG cylinder manufacturing and revalidation company, championing quality, safety, and sustainability.
             </motion.p>
           </motion.div>
         </div>
@@ -54,7 +54,7 @@ const About = () => {
             <h2 className="text-3xl font-display font-bold mb-6">About CTIR</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Cylinders & Tanks Industries Rwanda Limited was established to strengthen national energy infrastructure and promote safe, reliable, and affordable use of Liquefied Petroleum Gas (LPG).
+                Cylinders & Tanks Industries Limited was established to strengthen national energy infrastructure and promote safe, reliable, and affordable use of Liquefied Petroleum Gas (LPG).
               </p>
               <p>
                 The company is ISO certified, operating in full compliance with international quality, safety, and environmental standards. CTIR plays a critical role in supporting Rwanda's clean cooking agenda by localizing LPG cylinder production and extending the lifecycle of existing cylinders through professional revalidation services.

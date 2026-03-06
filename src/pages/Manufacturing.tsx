@@ -210,7 +210,7 @@ const Manufacturing = () => {
                 onCheckedChange={(checked) => setFormData({ ...formData, privacyAccepted: checked === true })}
               />
               <span className="text-xs text-muted-foreground">
-                I accept the Privacy Policy of Cylinders & Tanks Industries Rwanda Limited.
+                I accept the Privacy Policy of Cylinders & Tanks Industries Limited.
               </span>
             </div>
             <Button type="submit" size="lg" className="w-full">

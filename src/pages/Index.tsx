@@ -58,7 +58,7 @@ const Index = () => {
               Rwanda's First LPG Cylinder Manufacturer
             </motion.p>
             <motion.h1 variants={fadeUp} custom={1} className="text-4xl md:text-6xl font-display font-bold text-background leading-tight mb-6">
-              Cylinders & Tanks Industries Rwanda
+              Cylinders & Tanks Industries
             </motion.h1>
             <motion.p variants={fadeUp} custom={2} className="text-lg text-background/80 mb-8 max-w-lg">
               Safe, high-quality, locally manufactured LPG cylinders and revalidation services supporting Rwanda's energy transition.
